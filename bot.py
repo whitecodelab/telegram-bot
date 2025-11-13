@@ -69,7 +69,8 @@ class SimpleBot:
 👥 Всего пользователей: {users_count}
 
 💾 Данные хранятся в PostgreSQL
-🔄 Бот работает локально
+🚀 Бот работает на Render.com
+🌐 24/7 доступность
         """
         
         await update.message.reply_text(stats_text)
