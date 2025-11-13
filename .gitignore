@@ -1,0 +1,38 @@
+# Виртуальное окружение Python
+venv/
+env/
+ENV/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Файлы окружения
+.env
+.env.local
+.env.production
+
+# Логи
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Миграции БД (если будут)
+migrations/
+
+# Временные файлы
+temp/
+tmp/
